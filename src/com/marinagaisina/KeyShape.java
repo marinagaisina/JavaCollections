@@ -1,4 +1,12 @@
 package com.marinagaisina;
 
-public class KeyShape {
+public enum KeyShape {
+    Square,
+    Rectangular,
+    Circle,
+    Oval,
+    TrapezoidUp,
+    TrapezoidDown,
+    Irregular,
+    unknown
 }
